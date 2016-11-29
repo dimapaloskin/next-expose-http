@@ -65,7 +65,7 @@ async function run() {
 
     if (!api || typeof api !== 'function') {
 
-      console.error('Exported api shoud be a function which returned promise');
+      console.error('Exported api shoud be a function that returned promise');
       process.exit(1);
     }
 

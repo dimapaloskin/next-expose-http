@@ -15,6 +15,7 @@
   },
   "author": "Dima Paloskin <dima@paloskin.me>",
   "license": "MIT",
+  "repository": "dimapaloskin/next-expose-http",
   "dependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",

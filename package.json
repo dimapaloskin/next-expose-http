@@ -1,6 +1,6 @@
 {
   "name": "next-expose-http",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "The easy way to create custom request handlers for next.js",
   "main": "index.js",
   "files": [

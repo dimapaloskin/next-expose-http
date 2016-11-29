@@ -55,7 +55,8 @@ async function run() {
     }
 
     const nextPaths = {
-      server: join(nextPath, 'dist/server')
+      server: join(nextPath, 'dist/server'),
+      clean: join(nextPath, 'dist/server/build/clean')
     };
 
     let api = require(apiDir);
@@ -70,6 +71,9 @@ async function run() {
     }
 
     const normalizedPrefx = normalize(join('/', argv.prefix));
+
+    const clean = require(nextPaths.clean).default;
+    await clean(dir);
 
     const NextServer = require(nextPaths.server).default;
     const srv = createServer(NextServer);

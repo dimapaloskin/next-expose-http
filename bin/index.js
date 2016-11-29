@@ -2,7 +2,7 @@
 
 import { join, resolve, normalize } from 'path';
 import { exists } from 'mz/fs';
-import findNext from '../utils/find-next.js';
+import findNext from '../utils/find-next';
 import parseArgs from 'minimist';
 
 const action = process.argv[2];

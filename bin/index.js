@@ -58,7 +58,11 @@ async function run() {
       server: join(nextPath, 'dist/server')
     };
 
-    const api = require(apiDir).default;
+    let api = require(apiDir);
+    if (api && api.hasOwnProperty('default')) {
+      api = api.default;
+    }
+
     if (!api || typeof api !== 'function') {
 
       console.error('Exported api shoud be a function which returned promise');

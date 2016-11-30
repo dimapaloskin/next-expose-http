@@ -73,6 +73,4 @@ Ready. Launch the app with the `npm run dev`.
 # Author
 [Dmitry Pavlovsky](http://palosk.in)
 
-#
-
 MIT 

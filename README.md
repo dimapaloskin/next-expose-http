@@ -69,7 +69,10 @@ Ready. Launch the app with the `npm run dev`.
 
 `--api-dir` (`api` by default) - directory containing your api. Must contain index.js file.
 
+
+# Author
+[Dmitry Pavlovsky](http://palosk.in)
+
 #
 
-
-MIT © [Dmitry Pavlovsky](http://palosk.in)
+MIT 
